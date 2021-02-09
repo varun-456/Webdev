@@ -1,0 +1,1333 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/jquery-3.3.1.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jscript.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/navbar.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/hover.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="lightbox/css/lightgallery.css">
+    </head>
+    <body>  
+        
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="index.php">PSG College of Technology</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a scrollDiv="#land">Home</a></li>
+                    <li><a scrollDiv="#about">About us</a></li>
+                    <li><a scrollDiv="#clubs">Clubs</a></li>
+                    <li><a href="Students Union - By Law.pdf">SU By-Law</a></li>
+                    <li><a scrollDiv="#associations">Associations</a></li>
+                    <li><a scrollDiv="#schemes">Schemes & wings</a></li>
+                    <li><a scrollDiv="#gallery">Gallery</a></li>
+                    <li><a scrollDiv="#team">Team</a></li>
+                    <li><a scrollDiv="#contact">Contact</a></li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="bg">
+            <div class="overlay"></div>
+        </div>
+        <style>
+            .navbar-right>li>a{
+                font-size:16px;
+            }
+        </style>
+        <div class="container-fluid landing" id="land">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <center>
+                        <img src="image/icon/logo_psg.png" class="img-responsive" style="width:100px;">
+                        <h1 class="title">PSG College of Technology</h1>
+                        <h1 class="title">Students Union</h1>
+                        <br><br><br>
+                        <h3><a href="PSG CT LIST OF FACULTY ADVISORS 2020 -21.pdf"><span style="color: white"> List of Faculty Advisors of  Affiliated Clubs and Associations - Students Union 2020-21</span></a>
+						</h3>
+                    </center>
+                </div>
+            </div>
+        </div>
+        <style>
+            *[indent]{
+                text-indent:50px;
+            }
+            *[white]{
+                color:white;
+            }
+            *[lineheight]{
+                line-height:130%;
+            }
+            *[justify]
+            {
+                text-align:justify;
+            }
+            *[pcDisp],*[mobileDisp]
+            {
+                display:none;
+            }
+            @media only screen and (min-width : 767px)
+            {
+                *[pcDisp]
+                {
+                    display:inline-block;
+                }
+            }
+            @media only screen and (max-width : 767px)
+            {
+                *[typo]
+                {
+                    font-size:18px;
+                }
+                .containerTitle{
+                    font-size:3em;
+                }
+                table tr{
+                    padding:5px;
+                    border-bottom:1px white solid;
+                }
+                table td{
+                    padding-bottom:10px;
+                } 
+                *[mobileDisp]
+                {
+                    display:inline-block;
+                }
+            }
+        </style>
+        <div class="container-fluid clubList">
+            <div id="about" class="container">
+                <div class="row" style="background:white">
+                    <div class="col-xs-12 my-paroller"  data-paroller-factor="0.9" data-paroller-type="foreground" data-paroller-direction="vertical">
+                        <h3 typo white indent lineheight justify>Students Union being empowered by an ardent set of cabinet members, is here to do what it does best, providing a platform to encourage technical, social, cultural skills and nurturing innovation. The union's mission is to provide oppurtunities for the development of technical skills and knowledge through affiliated associations and to promote social, cultural and literacy activities through various affiliated clubs.</h3>
+                    </div>
+                </div>
+                <div class="row" style="background:white">
+                    <div class="col-xs-12 my-paroller"  data-paroller-factor="0.9" data-paroller-type="foreground" data-paroller-direction="vertical">
+                        <h3 typo white indent lineheight justify>PSG COLLEGE OF TECHNOLOGY, an institution of academic excellence, was founded in the year 1951 by PSG & Sons' Charities Trust. The emphasis of the trust is on vocational education & production oriented industrial training. In order to achieve these objectives, the founders wisely decided to locate the college in the same campus as the PSG Industrial Institute, which is a pioneer today in the manufacture of several engineering products, like process and agricultural pumps, industrial motors and high quality speciality castings.</h3>
+                    </div>
+                </div>
+                <div class="row" style="background:white">
+                    <div class="col-xs-12 my-paroller"  data-paroller-factor="0.9" data-paroller-type="foreground" data-paroller-direction="vertical">
+                        <h3 typo white indent lineheight justify>One unique feature at PSG College of Technology is the close collaboration of educational institution and industry, resulting in the cross fertilization of theory with practice. The undergraduate engineering students are required to spend half a day every week in the PSG Industrial Institute which enables them to study the actual production processes and gives them an opportunity to observe the working of industry. This scheme has been hailed as a unique approach to inculcate industry culture among the students. In addition, a large number of projects, which the students undertake in collaboration with the PSG Industrial Institute and other industries meet the R&D requirements of industry.</h3>
+                    </div>
+                </div>
+                <div class="row" style="background:white">
+                    <div class="col-xs-12 my-paroller"  data-paroller-factor="0.9" data-paroller-type="foreground" data-paroller-direction="vertical">
+                        <h3 typo white indent lineheight justify>The College has been in the vanguard of innovation in technical education, and over the years has taken giant strides and transformed itself into a prestigious centre for advanced studies in several faculties of Engineering Technology, Applied Sciences, Management Studies and Computer Science and Applications. Recognizing the excellent infrastructure, faculty, progressive outlook, high academic standards and record performance, the University of Madras reposed abundant confidence in the capabilities of the College, and PSG College of Technology was conferred Autonomous status in the year 1978, to update its own programmes and curriculum, to devise and conduct examinations, and to evaluate students' performance based on a system of continuous assessment. The academic programmes are designed and updated by a Board of Studies at the department level and Academic Council at the college level.</h3>
+                    </div>
+                </div>
+                <div class="row" style="background:white">
+                    <div class="col-xs-12 my-paroller"  data-paroller-factor="0.9" data-paroller-type="foreground" data-paroller-direction="vertical">
+                        <h3 typo white indent lineheight justify>These statutory bodies are constituted as per the guidelines of the All India Council for Technical Education. A separate examination section headed by a Controller of Examinations conducts the examinations. PSG College of Technology an AICTE approved institution is affiliated to Anna University and ISO 9001 certified. Most of our programmes have been accredited by National Board of Accreditation (NBA). Sedulous progress has been the hallmark of PSG Tech. The growth and development of the college owed much to the untiring efforts of Dr.&nbspG.&nbspR.&nbspDamodaran, Founder Principal of PSG College of Technology. Presently Dr.&nbspR.&nbspRudramoorthy is the Principal of the Institution.</h3>
+                    </div>
+                </div>
+                <div class="row" style="background:white">
+                    <div class="col-xs-12 my-paroller"  data-paroller-factor="0.9" data-paroller-type="foreground" data-paroller-direction="vertical">
+                        <h3 typo white indent lineheight justify>The Students Union, generally abbreviated as the SU, is the official student organization at PSG College of Technology. The SU is the main representative body of the students and helps in the establishment of a healthy relationship between all the student activities and the administration. It also acts as a platform for the students of the college to showcase their talents. The various student chapters and all the 20 clubs and 44 associations in the college work under its triumphant banner. The Students Union has its own unique set of cabinet members who a selected by the college authorities. All the activities performed by the SU are done under the careful guidance of the Dean - Students Affairs and the faculty advisors.</h3>
+                    </div>
+                </div>
+            </div>
+            <style>
+                *[leftLine]
+                {
+                    border-left:5px cyan solid;
+                    padding-left:10px;
+                }
+            </style>
+            <div class="row">
+                <div class="col-xs-12">
+                    <center><h1 id="clubs" class="containerTitle" leftLine>Clubs</h1></center>
+                </div>
+            </div>
+            <div class="row">
+                </div><div class="row"><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=amc">
+                                <center><img src="resource/default.png">
+                                <h3>AeroModeling club</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=awc">
+                                <center><img src="cms/resource/awc/logo.png"">
+                                <h3>Animal Welfare Club</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=airc">
+                                <center><img src="resource/default.png">
+                                <h3>Artificial Intelligence & Robotics</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=asq">
+                                <center><img src="resource/default.png">
+                                <h3>Association of Serious Quizzers</h3></center>
+                            </div></div><div class="row"><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=astro">
+                                <center><img src="cms/resource/astro/logo.jpg">
+                                <h3>Astronomy Club</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=brc">
+                                <center><img src="cms/resource/brc/logo.jpg">
+                                <h3>Book Readers Club</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=cap">
+                                <center><img src="cms/resource/cap/logo.jpg">
+                                <h3>CAP  Nature Club</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=dx">
+                                <center><img src="cms/resource/dx/logo.jpg">
+                                <h3>Dramatix Club</h3></center>
+                            </div></div><div class="row"><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=els">
+                                <center><img src="cms/resource/els/logo.png"">
+                                <h3>English Literary Society</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=eclub">
+                                <center><img src="resource/default.png">
+                                <h3>Entrepreneurs Club</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=fac">
+                                <center><img src="cms/resource/fac/logo.png"">
+                                <h3>Fine Arts Club</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=glf">
+                                <center><img src="cms/resource/glf/logo.png"">
+                                <h3>Global Leaders Forum</h3></center>
+                            </div></div><div class="row"><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=hef">
+                                <center><img src="cms/resource/hef/logo.jpg">
+                                <h3>Higher Education Forum</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=iif">
+                                <center><img src="cms/resource/iif/logo.jpg">
+                                <h3>Industry Interaction Forum</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=mac">
+                                <center><img src="cms/resource/mac/logo.jpg">
+                                <h3>Martial Arts Club</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=bridge">
+                                <center><img src="resource/default.png">
+                                <h3>PSG Tech Chronicle Club</h3></center>
+                            </div></div><div class="row"><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=pat">
+                                <center><img src="cms/resource/pat/logo.jpg">
+                                <h3>Pathshala Club</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=rh">
+                                <center><img src="cms/resource/rh/logo.png"">
+                                <h3>Radio Hub</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=rot">
+                                <center><img src="cms/resource/rot/logo.jpg">
+                                <h3>Rotaract Club</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=src">
+                                <center><img src="cms/resource/src/logo.jpg">
+                                <h3>Student Research Council</h3></center>
+                            </div></div><div class="row"><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=tam">
+                                <center><img src="cms/resource/tam/logo.jpg">
+                                <h3>Tamil Mandram</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=tek">
+                                <center><img src="resource/default.png">
+                                <h3>Tech Music</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=wdc">
+                                <center><img src="cms/resource/wdc/logo.jpg">
+                                <h3>Women Development Cell</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=yoc">
+                                <center><img src="cms/resource/yoc/logo.jpg">
+                                <h3>Youth Outreach Club</h3></center>
+                            </div></div><div class="row"><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=yrcs">
+                                <center><img src="cms/resource/yrcs/logo.jpg">
+                                <h3>Youth Red Cross Society</h3></center>
+                            </div>            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <center><h1 id="associations" class="containerTitle" leftLine>Associations</h1></center>
+                </div>
+            </div>
+            <div class="row">
+                </div><div class="row"><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=aa">
+                                <center><img src="resource/default.png">
+                                <h3>Aeronautical Association</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=asme">
+                                <center><img src="resource/default.png">
+                                <h3>American Society of Mechanical Engineers</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=afda">
+                                <center><img src="resource/default.png">
+                                <h3>Apparel & Fashion Design Association</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=asa">
+                                <center><img src="cms/resource/asa/logo.jpg">
+                                <h3>Applied Science Association</h3></center>
+                            </div></div><div class="row"><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=aea">
+                                <center><img src="resource/default.png">
+                                <h3>Automobile Engineering Association</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=bmea">
+                                <center><img src="resource/default.png">
+                                <h3>Biomedical Engineering Association</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=bta">
+                                <center><img src="resource/default.png">
+                                <h3>Biotechnology Association</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=cea">
+                                <center><img src="cms/resource/cea/logo.png"">
+                                <h3>Civil Engineering Association</h3></center>
+                            </div></div><div class="row"><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=csa">
+                                <center><img src="resource/default.png">
+                                <h3>Computational Sciences Association</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=caa">
+                                <center><img src="cms/resource/caa/logo.png"">
+                                <h3>Computer Applications Association</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=csea">
+                                <center><img src="resource/default.png">
+                                <h3>Computer Science & Engineering Association</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=eeea">
+                                <center><img src="cms/resource/eeea/logo.png"">
+                                <h3>Electrical & Electronics Engineering Association</h3></center>
+                            </div></div><div class="row"><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=ecea">
+                                <center><img src="cms/resource/ecea/logo.png"">
+                                <h3>Electronics & Communication Engineering Association</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=fta">
+                                <center><img src="cms/resource/fta/logo.jpg">
+                                <h3>Fashion Technology Association</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=gsa">
+                                <center><img src="resource/default.png">
+                                <h3>Graduate Students Association</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=iebms">
+                                <center><img src="resource/default.png">
+                                <h3>IEEE EBMS Student Branch</h3></center>
+                            </div></div><div class="row"><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=ishrae">
+                                <center><img src="resource/default.png">
+                                <h3>ISHRAE</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=iste">
+                                <center><img src="cms/resource/iste/logo.png"">
+                                <h3>ISTE</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=igbc">
+                                <center><img src="resource/default.png">
+                                <h3>Indian Green Building Council</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=iims">
+                                <center><img src="resource/default.png">
+                                <h3>Indian Institute of Metals</h3></center>
+                            </div></div><div class="row"><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=iiie">
+                                <center><img src="resource/default.png">
+                                <h3>Indian Institution of Industrial Engineering</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=ita">
+                                <center><img src="cms/resource/ita/logo.png"">
+                                <h3>Information Technology Association</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=ieee">
+                                <center><img src="cms/resource/ieee/logo.png"">
+                                <h3>Institute of Electrical & Electronics Engineering</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=ie">
+                                <center><img src="resource/default.png">
+                                <h3>Institution of Engineers</h3></center>
+                            </div></div><div class="row"><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=icea">
+                                <center><img src="resource/default.png">
+                                <h3>Instrumentation & Control Systems Engineering Association</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=isa">
+                                <center><img src="resource/default.png">
+                                <h3>International Society of Automation</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=ma">
+                                <center><img src="resource/default.png">
+                                <h3>Management Association</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=mea">
+                                <center><img src="resource/default.png">
+                                <h3>Mechanical Engineering Association</h3></center>
+                            </div></div><div class="row"><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=metea">
+                                <center><img src="resource/default.png">
+                                <h3>Metallurgical Engineering Association</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=pea">
+                                <center><img src="cms/resource/pea/logo.png"">
+                                <h3>Production Engineering Association</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=ram">
+                                <center><img src="cms/resource/ram/logo.jpg">
+                                <h3>Ramanujan Association of Mathematics</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=raea">
+                                <center><img src="cms/resource/raea/logo.jpg">
+                                <h3>Robotics & Automation Engineering Association</h3></center>
+                            </div></div><div class="row"><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=cvrpa">
+                                <center><img src="cms/resource/cvrpa/logo.png"">
+                                <h3>Sir C.V.Raman Physics Association</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=sae">
+                                <center><img src="cms/resource/sae/logo.png"">
+                                <h3>Society of Automotive Engineers</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=sme">
+                                <center><img src="resource/default.png">
+                                <h3>Society of Manufacturing Engineers</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=sesi">
+                                <center><img src="resource/default.png">
+                                <h3>Solar Energy Society of India</h3></center>
+                            </div></div><div class="row"><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=ttea">
+                                <center><img src="cms/resource/ttea/logo.jpg">
+                                <h3>Textile Technology Engineering Association</h3></center>
+                            </div><div class="col-xs-12 col-sm-3 selectors hvr-float" redirect="subindex.php?club=iete">
+                                <center><img src="cms/resource/iete/logo.jpg">
+                                <h3>The Institute of Electronics & Telecommunication Engineers</h3></center>
+                            </div>            </div><!--
+            <div class="row">
+                <div class="col-xs-12">
+                    <center><h1 id="associations" class="containerTitle" leftLine>Associations</h1></center>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <center>
+                <table id="association">
+					<tbody><tr>
+						<td>1.	Civil Engineering Association</td>
+						<td>Mr M Manivannan</td>						
+					 </tr>
+					 <tr>
+						<td>2.	Mechanical Engineering Association</td>
+						<td>Dr M Yuvaraja</td>						
+					 </tr>
+					 <tr>
+						<td>3.	Electrical &amp; Electronics Engineering Association</td>
+						<td>Mr S Karthikeyan</td>						
+					 </tr>
+					 <tr>
+						<td>4.	Electronics &amp; Communication Engineering Association</td>
+						<td>Dr P Vishalakshi</td>						
+					 </tr>
+					 <tr>
+						<td>5.	Metallurgical Engineering Association</td>
+						<td>Mr G Venkatesh</td>						
+					 </tr>
+					 <tr>
+						<td>6.	Production Engineering Association</td>
+						<td>Dr G Madhan Mohan</td>						
+					 </tr>
+					 <tr>
+						<td>7.	Computer Science &amp; Engineering Association</td>
+						<td>Dr N Arulanand</td>						
+					 </tr>
+					 <tr>
+						<td>8.	Textile Technology Engineering Association</td>
+						<td>Dr J C Sakthivel</td>						
+					 </tr>
+					 <tr>
+						<td>9.	Automobile Engineering Association</td>
+						<td>Dr P K Rajesh</td>						
+					 </tr>
+					 <tr>
+						<td>10.	Biotechnology Association</td>
+						<td>Mr G Karthik Vijayakumar</td>						
+					 </tr>
+					 <tr>
+						<td>11.	Information Technology Association</td>
+						<td>Ms E G Radhika</td>						
+					 </tr>
+					 <tr>
+						<td>12.	Biomedical Engineering Association</td>
+						<td>Mr K Umesh</td>						
+					 </tr>
+					 <tr>
+						<td>13.	Fashion Technology Association</td>
+						<td>Mr R Surjit</td>						
+					 </tr>
+					 <tr>
+						<td>14.	Instrumentation &amp; Control Systems Engineering Association</td>
+						<td>Mr S Karthick</td>						
+					 </tr>
+					 <tr>
+						<td>15.	Robotics &amp; Automation Engineering Association</td>
+						<td>Dr M Suresh</td>
+					 </tr>
+					 <tr>
+						<td>16.	Management Association</td>
+						<td>Ms D Krishnaveni</td>
+					 </tr>
+					 <tr>
+						<td>17.	Applied Science Association</td>
+						<td>Dr S C Murugavel</td>
+					 </tr>
+					 <tr>
+						<td>18.	Computer Applications Association</td>
+						<td>Ms N Geetha</td>
+					 </tr>
+					 <tr>
+						<td>19.	Computational Sciences Association</td>
+						<td>Dr Suresh Balusamy</td>
+					 </tr>
+					 <tr>
+						<td>20.	Ramanujan Association of Mathematics</td>
+						<td>Dr M Balasubramanian</td>
+					 </tr>
+					 <tr>
+						<td>21.	Apparel &amp; Fashion Design Association</td>
+						<td>Dr Mariyam Adnan</td>
+					 </tr>
+					 <tr>
+						<td>22.	Institution of Engineers (Students Chapter)</td>
+						<td>Mr V Vijayanand</td>
+					 </tr>
+					 <tr>
+						<td>23.	American Society of Mechanical Engineers (Students Section)</td>
+						<td>Mr K Sadesh</td>
+					 </tr>
+					 <tr>
+						<td>24.	Society of Manufacturing Engineers</td>
+						<td>Dr S P Leo Kumar</td>
+					 </tr>
+					 <tr>
+						<td>25.	Institute of Electrical &amp; Electronics Engineering (IEEE)(Students Chapters)</td>
+						<td>Dr S Subharani</td>
+					 </tr>
+					 <tr>
+						<td>26.	Society of Automotive Engineers (SAE) (Collegiate Chapter)</td>
+						<td>Dr V M Murugesan</td>
+					 </tr>
+					 <tr>
+						<td>27.	The Institute of Electronics &amp; Telecommunication Engineers(Stud .Chapter)</td>
+						<td>Dr R Venkateswari</td>
+					 </tr>
+					 <tr>
+						<td>28.	ISTE (Students Chapter)	</td>
+						<td>Dr P Gopalakrishnan</td>
+					 </tr>
+					 <tr>
+						<td>29.	Solar Energy Society of India (Students Chapter)	</td>
+						<td>Dr R Velavan</td>
+					 </tr>
+					 <tr>
+						<td>30.	International Society of Automation (ISA) (Student Section)</td>
+						<td>Ms R Rajeshwari</td>
+					 </tr>
+					 <tr>
+						<td>31.	Indian Institution of Industrial Engineering (Students Chapter)</td>
+						<td>Mr A S Prasanth</td>
+					 </tr>
+					 <tr>
+						<td>32.	Graduate Students Association</td>
+						<td>Dr AR Lakshmanan</td>
+					 </tr>
+					 <tr>
+						<td>33.	ISHRAE (Students Chapter)</td>
+						<td>Dr P Viswanathan</td>
+					 </tr>
+					 <tr>
+						<td>34.	IIM – Students Affiliate Chapter</td>
+						<td>Dr J Krishnamoorthy</td>
+					 </tr>
+					 <tr>
+						<td>35.	Materials Advantage Society</td>
+						<td>Dr P Gopalakrishnan</td>
+					 </tr>
+					 <tr>
+						<td>36.	Sir C.V.Raman Physics Association</td>
+						<td>Dr S Prasanna</td>
+					 </tr>					 
+				  </tbody></table></center>
+                </div>
+            </div>-->
+            <div class="row">
+                <div class="col-xs-12">
+                    <center>
+                        <h1 id="schemes" class="containerTitle" pcDisp leftLine>National Service Scheme</h1>
+                        <h1 class="containerTitle" mobileDisp leftLine>NSS</h1>
+                        <h3 white mobileDisp>National Service Scheme</h3>
+                        <h2 white margin-bottom-20>Programme officers:</h2>
+                        <h4 white>Dr C Theivarasu (Chemistry)</h4>
+                        <h4 white>Dr R Senthilkumar (English)</h4>
+                        <h4 white>Dr C Veeramani (AM & CS)</h4>
+                        <h4 white>Dr T Vasanthi (Maths)</h4>
+                        <h4 white>Dr L Thulasimani (ECE)</h4>
+                    </center>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <center>
+                        <h1 class="containerTitle" leftLine>National Cadet Corps</h1>
+                        <h3 mobileDisp white>NCC officers</h3></center><center>
+                        <h2 pcDisp white>NCC officers</h2>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>5/4 (TN)  BN NCC </td>
+                                    <td>&nbsp; &nbsp; &nbsp; &nbsp;   Major Dr M.D Kannan (Physics)</td>                                                                             	       					
+                                </tr>
+                                <tr>
+                                    <td>5 (N) AIR SQN (Tech) NCC</td>
+                                    <td>&nbsp; &nbsp; &nbsp; &nbsp; Mr S Prathees Kumar (Production)-Caretaker </td>                                                                             	       					
+                                </tr>
+                                <tr>
+                                    <td>5 (TN) Girls  BN NCC</td>
+                                    <td>&nbsp; &nbsp; &nbsp; &nbsp; Capt. Lt. Dr M Kalpana (Humanities) </td>                                                                             	       					
+                                </tr>
+                                <tr>
+                                    <td>1/2 (TN) CTC NCC Engineers Platoon</td>
+                                    <td>&nbsp; &nbsp; &nbsp; &nbsp; Lt. Dr S Babu (Mechanical) </td>                                                                             	       					
+                                </tr>
+                            </tbody>
+                        </table>
+                    </center>
+                </div>
+            </div>
+            <style>
+                #gallery .nav-pills h3,#team .nav-pills h3{
+                    color:white!important;
+                }
+                #gallery .tab-content,#team .tab-content{
+                    margin-top:50px;
+                }
+                #gallery .nav-pills>li,#team .nav-pills>li{
+                    text-align:center;
+                    margin-left:auto;
+                    margin-right:auto;
+                }
+                #gallery .nav-pills>li>a,#team .nav-pills>li>a{
+                    padding:3px 10px 3px 10px;
+                }
+                #gallery .nav .active>a,#team .nav .active>a{
+                    background:white!important;
+                }
+                #gallery .nav .active>a>h3,#team .nav .active>a>h3{
+                    color:black!important;
+                }
+                #gallery .nav,#team .nav{
+                    padding:inherit;
+                    display:inline-flex;
+                    text-align:center;
+                    margin-left:auto;
+                    margin-right:auto;
+                }
+                .nav-pills li>a{
+                    margin-left:20px;
+                }
+            </style>
+    <div class="row" id="gallery">
+                <div class="col-xs-12">
+                    <center><h1 class="containerTitle" leftLine>Gallery</h1></center>
+                </div>
+                <div class="col-xs-12">
+                    <center>
+                        <ul class="nav nav-pills">
+                            <li class="active"><a data-toggle="pill" href="#home"><h3>2019-20</h3></a></li>
+                            <li><a data-toggle="pill" href="#menu1"><h3>2018-19</h3></a></li>
+							<li><a data-toggle="pill" href="#menu2"><h3>2017-18</h3></a></li>
+                        </ul>
+                    </center>
+                    <!-- For Sample Started Hear -->
+					
+					<div class="tab-content">
+                        <div id="home" class="tab-pane fade in active">
+                     
+						   <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">           
+                                <div class="captions">
+                                    <a href="image/events/Republic Day 2019/1.JPG" data-sub-html="<h4></h4>"><img src="image/events/Republic Day 2019/1.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/2.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/2.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/3.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/3.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/4.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/4.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/5.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/5.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/6.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/6.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/7.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/7.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/8.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/8.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/9.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/9.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/10.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/10.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/11.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/11.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/12.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/12.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/13.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/13.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/14.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/14.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/15.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/15.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/16.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/16.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/17.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/17.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/18.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/18.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/19.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/19.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/20.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/20.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/21.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/21.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/22.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/22.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/23.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/23.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/24.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/24.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/25.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/25.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/26.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/26.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/27.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/27.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/28.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/28.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/29.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/29.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/30.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/30.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/31.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/31.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/32.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/32.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/33.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/33.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/34.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/34.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/35.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/35.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/36.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/36.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/37.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/37.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/38.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/38.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/39.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/39.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/40.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/40.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/41.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/41.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/42.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/42.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/43.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/43.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/44.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/44.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/45.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/45.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/46.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/46.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/47.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/47.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/48.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/48.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/49.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/49.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/50.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/50.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/51.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/51.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/52.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/52.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/53.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/53.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/54.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/54.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/55.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/55.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/56.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/56.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/57.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/57.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/58.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/58.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/59.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/59.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/60.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/60.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/61.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/61.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/62.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/62.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/63.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/63.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/64.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/64.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/65.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/65.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/66.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/66.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/67.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/67.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/68.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/68.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/69.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/69.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/70.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/70.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/71.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/71.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/72.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/72.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/73.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/73.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/74.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/74.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/75.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/75.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/76.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/76.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/77.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/77.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/78.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/78.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Republic Day 2019/79.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Republic Day 2019/79.JPG" class="img-thumbnail img-responsive"/></a>									
+                                </div>
+                                <h3 center>Republic Day 2019</h3>
+                            </div>
+							
+							
+							<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">           
+                                <div class="captions">
+                                    <a href="image/events/Intrams 2019/1.JPG" data-sub-html="<h4></h4>"><img src="image/events/Intrams 2019/1.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Intrams 2019/2.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Intrams 2019/2.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Intrams 2019/3.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Intrams 2019/3.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Intrams 2019/4.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Intrams 2019/4.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Intrams 2019/5.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Intrams 2019/5.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Intrams 2019/6.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Intrams 2019/6.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Intrams 2019/7.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Intrams 2019/7.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Intrams 2019/8.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Intrams 2019/8.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Intrams 2019/9.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Intrams 2019/9.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Intrams 2019/10.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Intrams 2019/10.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Intrams 2019/11.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Intrams 2019/11.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Intrams 2019/12.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Intrams 2019/12.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Intrams 2019/13.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Intrams 2019/13.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Intrams 2019/14.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Intrams 2019/14.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Intrams 2019/15.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Intrams 2019/15.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Intrams 2019/16.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Intrams 2019/16.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Intrams 2019/17.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Intrams 2019/17.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Intrams 2019/18.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Intrams 2019/18.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Intrams 2019/19.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Intrams 2019/19.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Intrams 2019/20.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Intrams 2019/20.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Intrams 2019/21.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Intrams 2019/21.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Intrams 2019/22.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Intrams 2019/22.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Intrams 2019/23.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Intrams 2019/23.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Intrams 2019/24.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Intrams 2019/24.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Intrams 2019/25.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Intrams 2019/25.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Intrams 2019/26.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Intrams 2019/26.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Intrams 2019/27.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Intrams 2019/27.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Intrams 2019/28.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Intrams 2019/28.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Intrams 2019/29.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Intrams 2019/29.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Intrams 2019/30.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Intrams 2019/30.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Intrams 2019/31.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Intrams 2019/31.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Intrams 2019/32.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Intrams 2019/32.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Intrams 2019/33.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Intrams 2019/33.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Intrams 2019/34.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Intrams 2019/34.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Intrams 2019/35.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Intrams 2019/35.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Intrams 2019/36.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Intrams 2019/36.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Intrams 2019/37.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Intrams 2019/37.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Intrams 2019/38.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Intrams 2019/38.JPG" class="img-thumbnail img-responsive"/></a>									
+                                </div>
+                                <h3 center>Intrams 2019</h3>
+                            </div>
+							
+							
+							<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">           
+                                <div class="captions">
+                                    <a href="image/events/Independence Day 2019/1.JPG" data-sub-html="<h4></h4>"><img src="image/events/Independence Day 2019/1.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/2.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/2.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/3.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/3.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/4.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/4.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/5.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/5.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/6.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/6.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/7.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/7.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/8.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/8.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/9.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/9.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/10.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/10.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/11.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/11.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/12.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/12.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/13.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/13.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/14.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/14.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/15.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/15.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/16.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/16.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/17.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/17.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/18.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/18.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/19.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/19.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/20.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/20.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/21.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/21.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/22.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/22.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/23.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/23.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/24.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/24.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/25.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/25.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/26.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/26.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/27.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/27.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/28.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/28.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/29.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/29.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/30.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/30.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/31.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/31.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/32.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/32.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/33.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/33.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/34.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/34.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/35.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/35.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/36.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/36.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/37.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/37.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/38.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/38.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/39.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/39.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/40.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/40.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/41.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/41.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/42.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/42.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/43.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/43.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/44.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/44.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/45.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/45.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/46.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/46.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/47.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/47.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/48.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/48.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/49.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/49.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/50.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/50.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/51.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/51.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/52.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/52.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/53.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/53.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/54.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/54.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/55.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/55.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/56.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/56.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/57.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/57.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/58.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/58.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/59.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/59.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/60.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/60.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/61.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/61.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/62.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/62.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/63.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/63.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/64.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/64.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/65.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/65.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/66.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/66.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/67.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/67.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/68.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/68.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/69.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/69.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/70.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/70.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/71.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/71.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/72.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/72.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/73.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/73.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/74.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/74.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/75.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/75.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/76.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/76.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/77.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/77.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/78.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/78.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Independence Day 2019/79.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Independence Day 2019/79.JPG" class="img-thumbnail img-responsive"/></a>									
+                                </div>
+                                <h3 center>Independence Day 2019</h3>
+                            </div>
+						    
+							
+							
+							<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">           
+                                <div class="captions">
+                                    <a href="image/events/Inaugural Function 2019-20/1.JPG" data-sub-html="<h4></h4>"><img src="image/events/Inaugural Function 2019-20/1.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Inaugural Function 2019-20/2.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Inaugural Function 2019-20/2.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Inaugural Function 2019-20/3.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Inaugural Function 2019-20/3.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Inaugural Function 2019-20/4.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Inaugural Function 2019-20/4.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Inaugural Function 2019-20/5.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Inaugural Function 2019-20/5.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Inaugural Function 2019-20/6.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Inaugural Function 2019-20/6.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Inaugural Function 2019-20/7.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Inaugural Function 2019-20/7.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Inaugural Function 2019-20/8.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Inaugural Function 2019-20/8.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Inaugural Function 2019-20/9.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Inaugural Function 2019-20/9.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Inaugural Function 2019-20/10.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Inaugural Function 2019-20/10.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Inaugural Function 2019-20/11.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Inaugural Function 2019-20/11.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Inaugural Function 2019-20/12.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Inaugural Function 2019-20/12.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Inaugural Function 2019-20/13.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Inaugural Function 2019-20/13.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Inaugural Function 2019-20/14.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Inaugural Function 2019-20/14.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Inaugural Function 2019-20/15.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Inaugural Function 2019-20/15.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Inaugural Function 2019-20/16.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Inaugural Function 2019-20/16.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Inaugural Function 2019-20/17.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Inaugural Function 2019-20/17.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Inaugural Function 2019-20/18.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Inaugural Function 2019-20/18.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Inaugural Function 2019-20/19.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Inaugural Function 2019-20/19.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Inaugural Function 2019-20/20.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Inaugural Function 2019-20/20.JPG" class="img-thumbnail img-responsive"/></a>									
+                                </div>
+                                <h3 center>Inaugural Function 2019-20</h3>
+                            </div>
+						   
+					   
+						    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">           
+                                <div class="captions">
+                                    <a href="image/events/Admission - 2019/1.JPG" data-sub-html="<h4></h4>"><img src="image/events/Admission - 2019/1.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Admission - 2019/2.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Admission - 2019/2.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Admission - 2019/3.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Admission - 2019/3.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Admission - 2019/4.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Admission - 2019/4.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Admission - 2019/5.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Admission - 2019/5.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Admission - 2019/6.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Admission - 2019/6.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Admission - 2019/7.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Admission - 2019/7.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Admission - 2019/8.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Admission - 2019/8.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Admission - 2019/9.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Admission - 2019/9.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Admission - 2019/10.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Admission - 2019/10.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Admission - 2019/11.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Admission - 2019/11.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Admission - 2019/12.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Admission - 2019/12.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Admission - 2019/13.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Admission - 2019/13.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Admission - 2019/14.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Admission - 2019/14.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Admission - 2019/15.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Admission - 2019/15.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Admission - 2019/16.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Admission - 2019/16.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Admission - 2019/17.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Admission - 2019/17.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Admission - 2019/18.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Admission - 2019/18.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Admission - 2019/19.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Admission - 2019/19.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Admission - 2019/20.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Admission - 2019/20.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Admission - 2019/21.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Admission - 2019/21.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Admission - 2019/22.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Admission - 2019/22.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Admission - 2019/23.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Admission - 2019/23.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Admission - 2019/24.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Admission - 2019/24.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Admission - 2019/25.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Admission - 2019/25.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Admission - 2019/26.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Admission - 2019/26.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Admission - 2019/27.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Admission - 2019/27.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Admission - 2019/28.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Admission - 2019/28.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Admission - 2019/29.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Admission - 2019/29.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Admission - 2019/30.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Admission - 2019/30.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Admission - 2019/31.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Admission - 2019/31.JPG" class="img-thumbnail img-responsive"/></a>									
+                                </div>
+                                <h3 center>Admission - 2019</h3>
+                            </div>
+							
+                               
+                            <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2s">           
+                                <div class="captions">
+                                     <a href="image/events/Common Orientation - 2019/1.JPG" data-sub-html="<h4></h4>"><img src="image/events/Common Orientation - 2019/1.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Common Orientation - 2019/2.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Common Orientation - 2019/2.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Common Orientation - 2019/3.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Common Orientation - 2019/3.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Common Orientation - 2019/4.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Common Orientation - 2019/4.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Common Orientation - 2019/5.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Common Orientation - 2019/5.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Common Orientation - 2019/6.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Common Orientation - 2019/6.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Common Orientation - 2019/7.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Common Orientation - 2019/7.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Common Orientation - 2019/8.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Common Orientation - 2019/8.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Common Orientation - 2019/9.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Common Orientation - 2019/9.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Common Orientation - 2019/10.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Common Orientation - 2019/10.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Common Orientation - 2019/11.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Common Orientation - 2019/11.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Common Orientation - 2019/12.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Common Orientation - 2019/12.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Common Orientation - 2019/13.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Common Orientation - 2019/13.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Common Orientation - 2019/14.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Common Orientation - 2019/14.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Common Orientation - 2019/15.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Common Orientation - 2019/15.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Common Orientation - 2019/16.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Common Orientation - 2019/16.JPG" class="img-thumbnail img-responsive"/></a><a href="image/events/Common Orientation - 2019/17.JPG" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/Common Orientation - 2019/17.JPG" class="img-thumbnail img-responsive"/></a>                                </div>
+                                <h3 center>Common Orientation - 2019</h3>
+                            </div>
+							
+							
+                            <!--Independence day-->
+                            
+                            <!--Independence day ends-->
+                        </div>
+							
+								<!-- Ended Hear -->
+								
+                        <div id="menu1" class="tab-pane fade">
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">           
+                                <div class="captions">
+                                    <a href="image/events/inaug18/1.jpg" data-sub-html="<h4></h4>"><img src="image/events/inaug18/1.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/inaug18/2.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/inaug18/2.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/inaug18/3.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/inaug18/3.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/inaug18/4.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/inaug18/4.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/inaug18/5.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/inaug18/5.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/inaug18/6.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/inaug18/6.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/inaug18/7.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/inaug18/7.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/inaug18/8.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/inaug18/8.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/inaug18/9.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/inaug18/9.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/inaug18/10.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/inaug18/10.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/inaug18/11.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/inaug18/11.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/inaug18/12.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/inaug18/12.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/inaug18/13.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/inaug18/13.jpg" class="img-thumbnail img-responsive"/></a>                                </div>
+                                <h3 center>Inauguration 2018-19</h3>
+                            </div>
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">           
+                                <div class="captions">
+                                    <a href="image/events/orient18/1.jpg" data-sub-html="<h4></h4>"><img src="image/events/orient18/1.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/orient18/2.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/orient18/2.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/orient18/3.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/orient18/3.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/orient18/4.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/orient18/4.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/orient18/5.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/orient18/5.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/orient18/6.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/orient18/6.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/orient18/7.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/orient18/7.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/orient18/8.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/orient18/8.jpg" class="img-thumbnail img-responsive"/></a>                                </div>
+                                <h3 center>Orientation 2018</h3>
+                            </div>
+                                <!--Independence day-->
+                           <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">           
+                                <div class="captions">
+                                    <a href="image/events/ind18/1.jpg" data-sub-html="<h4></h4>"><img src="image/events/ind18/1.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/ind18/2.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/ind18/2.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/ind18/3.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/ind18/3.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/ind18/4.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/ind18/4.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/ind18/5.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/ind18/5.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/ind18/6.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/ind18/6.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/ind18/7.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/ind18/7.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/ind18/8.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/ind18/8.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/ind18/9.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/ind18/9.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/ind18/10.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/ind18/10.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/ind18/11.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/ind18/11.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/ind18/12.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/ind18/12.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/ind18/13.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/ind18/13.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/ind18/14.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/ind18/14.jpg" class="img-thumbnail img-responsive"/></a>                                </div>
+                                <h3 center>Independence Day 2018</h3>
+                            </div>
+                                <!--Independence day ends-->
+                           
+                           
+                            
+                        </div>
+						
+						<!--- Secound Opcion Is Started  Hear --->
+						<div id="menu2" class="tab-pane fade">
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">           
+                                <div class="captions">
+                                    <a href="image/events/inaug17/1.jpg" data-sub-html="<h4></h4>"><img src="image/events/inaug17/1.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/inaug17/2.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/inaug17/2.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/inaug17/3.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/inaug17/3.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/inaug17/4.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/inaug17/4.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/inaug17/5.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/inaug17/5.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/inaug17/6.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/inaug17/6.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/inaug17/7.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/inaug17/7.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/inaug17/8.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/inaug17/8.jpg" class="img-thumbnail img-responsive"/></a>                                </div>
+                                <h3 center>Inauguration 2017-18</h3>
+                            </div>
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">           
+                                <div class="captions">
+                                    <a href="image/events/ind17/1.jpg" data-sub-html="<h4></h4>"><img src="image/events/ind17/1.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/ind17/2.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/ind17/2.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/ind17/3.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/ind17/3.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/ind17/4.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/ind17/4.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/ind17/5.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/ind17/5.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/ind17/6.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/ind17/6.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/ind17/7.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/ind17/7.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/ind17/8.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/ind17/8.jpg" class="img-thumbnail img-responsive"/></a><a href="image/events/ind17/9.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/ind17/9.jpg" class="img-thumbnail img-responsive"/></a>                                </div>
+                                <h3 center>Independence Day 2017</h3>
+                            </div>
+                                <!--Independence day-->
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">           
+                                <div class="captions">
+                                    <a href="image/events/techday18/1.jpg" data-sub-html="<h4></h4>"><img src="image/events/techday18/1.jpg" class="redir img-thumbnail img-responsive" redir="galleryprev.php?dir=techday18/awards"/></a><a href="image/events/techday18/2.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/techday18/2.jpg" class="redir img-thumbnail img-responsive" redir="galleryprev.php?dir=techday18/awards"/></a><a href="image/events/techday18/3.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/techday18/3.jpg" class="redir img-thumbnail img-responsive" redir="galleryprev.php?dir=techday18/awards"/></a><a href="image/events/techday18/4.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/techday18/4.jpg" class="redir img-thumbnail img-responsive" redir="galleryprev.php?dir=techday18/awards"/></a><a href="image/events/techday18/5.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/techday18/5.jpg" class="redir img-thumbnail img-responsive" redir="galleryprev.php?dir=techday18/awards"/></a><a href="image/events/techday18/6.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/techday18/6.jpg" class="redir img-thumbnail img-responsive" redir="galleryprev.php?dir=techday18/awards"/></a><a href="image/events/techday18/7.jpg" data-sub-html="<h4></h4>"><img style="display:none"src="image/events/techday18/7.jpg" class="redir img-thumbnail img-responsive" redir="galleryprev.php?dir=techday18/awards"/></a>                                </div>
+                                <h3 center redir="galleryprev.php?dir=techday18/awards">Tech Day 2018</h3>
+                            </div>
+                                <!--Independence day ends-->
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">           
+                                <div class="captions">
+                                    <a href="image/events/kriya18/1.jpg" data-sub-html="<h4></h4>"><img src="image/events/kriya18/1.jpg" class="img-thumbnail img-responsive"/></a>                                </div>
+                                <h3 center>Kriya 2018</h3>
+                            </div>
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">           
+                                <div class="captions">
+                                    <a href="image/events/intrams17/1.jpg" data-sub-html="<h4></h4>"><img src="image/events/intrams17/1.jpg" class="img-thumbnail img-responsive"/></a>                                </div>
+                                <h3 center>Intrams 2017</h3>
+                            </div>
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">           
+                                <div class="captions">
+                                    <a href="image/events/admission17/1.jpg" data-sub-html="<h4></h4>"><img src="image/events/admission17/1.jpg" class="img-thumbnail img-responsive"/></a>                                </div>
+                                <h3 center>Admission 2017</h3>
+                            </div>
+                        </div>
+						
+						<!-- Ended Hear --->
+						
+						
+						
+						
+						
+                    </div>
+                </div>
+            </div>
+            <style>
+                *[center]{
+                    text-align:center;
+                }
+                #gallery,#team{
+                    color:white;
+                }
+                #gallery img{
+                    width:100%;
+                    padding:0px;
+                    border-radius:0px;
+                    border:0;
+                }
+            </style>
+            <div class="row" id="team">
+                <div class="col-xs-12">
+                    <center>
+                        <h1 class="containerTitle" leftLine>Our Team</h1>
+                    </center>
+                </div>
+                <div class="col-xs-12">
+                    <center>
+                        <h1>Chief Patron</h1>
+                        <img src="image/team/faculty/trustee.jpg" class="img-circle img-responsive">
+                        <h3>Shri.L.Gopalakrishnan </h3>
+                        <p>Managing Trustee</p>
+                        <p>PSG & Sons' Charity</p>
+                    </center>
+                </div>
+                <div class="col-xs-12">
+                    <center>
+                        <h1>Patron</h1>
+                        <img src="image/team/faculty/principle_pr.jpg" class="img-circle img-responsive">
+                        <h3>Dr. K. Prakasan</h3>
+                        <p>Principal In Charge</p>
+                    </center>
+                </div>
+                <div class="col-xs-12">
+                    <center>
+                        <h1>Dean - Student Affairs</h1>
+                        <img src="image/team/faculty/natarajan.jpg" class="img-circle img-responsive">
+                        <h3>Dr. K. Natarajan </h3>
+                    </center>
+                </div>
+                <div class="col-xs-12">
+                    <center>
+                        <h1>Associate Dean - Finance</h1>
+                        <img src="image/team/faculty/shankarA.jpg" class="img-circle img-responsive">
+                        <h3>Dr. A. Sankar</h3>
+                    </center>
+                </div>
+                <div class="col-xs-12"><center><h1 white>Student Welfare & Councelling</h1></center></div>
+                <div class="col-sm-2 col-lg-2 col-md-2"></div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <center>
+                        <img src="image/team/faculty/Dhanabal.jpg" class="img-circle img-responsive">
+                        <h3>Mr. P. Dhanabal</h3>
+                        <h4>Associate Dean</h4>
+                    </center>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <center>
+                        <img src="image/team/faculty/karthika.jpg" class="img-circle img-responsive">
+                        <h3>Dr. D. Karthika Renuka</h3>
+                        <h4>Faculty Advisor</h4>
+                    </center>
+                </div>
+                <div class="col-xs-12"><center><h1 white>General Functioning</h1></center></div>
+                <div class="col-sm-2 col-lg-2 col-md-2"></div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <center>
+                        <img src="image/team/faculty/shankarkumar.jpg" class="img-circle img-responsive">
+                        <h3>Dr. S. Sankarakumar</h3>
+                        <h4>Faculty Advisor</h4>
+                    </center>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <center>
+                        <img src="image/team/faculty/rammohan.jpg" class="img-circle img-responsive">
+                        <h3>Dr. H. Rammohan</h3>
+                        <h4>Faculty Advisor</h4>
+                    </center>
+                </div>
+                <div class="col-xs-12"><center><h1 white>Club Activities</h1></center></div>
+                <div class="col-xs-12"><center><h3>Associated Clubs :</h3><h4>Tech Music, Dramatics Club, Astronomy Club, Animal Welfare Club, WDC, Martial Arts Club</h4></center></div>
+                <div class="col-sm-2 col-lg-2 col-md-2"></div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <center>
+                        <img src="image/team/faculty/prabavathi.jpg" class="img-circle img-responsive">
+                        <h3>Dr. J. Prabhavathi</h3>
+                        <h4>Faculty Advisor</h4>
+                    </center>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <center>
+                        <img src="image/team/faculty/senthilkumarS.jpg" class="img-circle img-responsive">
+                        <h3>Dr. R. Senthilkumar</h3>
+                        <h4>Faculty Advisor</h4>
+                    </center>
+                </div>
+                
+                <div class="col-xs-12">
+                    <center>
+                        
+                        <h3>Associated clubs :</h3>
+                        <h4>CAP & Nature Club, ELS, Entrepreneurs Club, NSS, Tamil Mandram, Fine Arts Club, YRC, Rotaract Club, Radio Hub</h4>
+                    </center>
+                </div>
+                <div class="col-sm-2 col-lg-2 col-md-2"></div>
+              
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <center>
+                        <img src="image/team/faculty/vishalakshi.jpg" class="img-circle img-responsive">
+                        <h3>Dr. P. Visalakshi</h3>
+                        <h4>Faculty Advisor</h4>
+                    </center>
+                </div>
+				
+				  <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <center>
+                        <img src="image/team/faculty/C6019.jpg" class="img-circle img-responsive">
+                        <h3>Mr. E. Balaji</h3>
+                        <h4>Faculty Advisor</h4>
+                    </center>
+                </div>
+				
+                <div class="col-xs-12">
+                    <center>
+                        
+                        <h3>Associated clubs :</h3>
+                        <h4>Higher Education Forum, Pathshala Club, GLF, SRC, Industry (Alumni)-Interaction Forum, Book Readers Club</h4>
+                    </center>
+                </div>
+                <div class="col-sm-2 col-lg-2 col-md-2"></div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <center>
+                        <img src="image/team/faculty/muralidhar.jpg" class="img-circle img-responsive">
+                        <h3>Mr. D. Muralidhar</h3>
+                        <h4>Associate Dean</h4>
+                    </center>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <center>
+                        <img src="image/team/faculty/venkatachalam.jpg" class="img-circle img-responsive">
+                        <h3>Mr. T. Venkatachalam</h3>
+                        <h4>Faculty Advisor</h4>
+                    </center>
+                </div>
+                
+				<div class="col-xs-12">
+                    <center>
+                        <h1>Office Bearers of the Students Union</h1>
+                    </center>
+                </div>
+				
+                
+				<div class="col-xs-12">
+                    
+					<center>
+                        <ul class="nav nav-pills">
+                        <li class="active">
+							<a data-toggle="pill" href="#home1"><h3>2020-21</h3></a></li>
+                            <li><a data-toggle="pill" href="#menu15"><h3>2019-20</h3></a></li>					
+							<li><a data-toggle="pill" href="#menu142"><h3>2018-19</h3></a></li> 					
+                            <li><a data-toggle="pill" href="#menu11"><h3>2017-18</h3></a></li>
+                            <li><a data-toggle="pill" href="#menu12"><h3>2016-17</h3></a></li>
+                            <li><a data-toggle="pill" href="#menu13"><h3>2015-16</h3></a></li>
+                        </ul>
+                    </center>
+					
+                    <div class="tab-content">
+					<div id="home1" class="tab-pane fade in active">
+					    <div class="col-sm-2 col-md-2 col-lg-2"></div>
+						<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <center>
+                                    <h2>Chairperson</h2>
+                                    <img src="image/team/student/2021/17Y203.jpg" class="img-circle img-responsive">
+                                    <h3>Mr. Arun C (17Y203)</h3>
+                                    <h4>4th Year BE Metly</h4>
+                                </center>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <center>
+                                    <h2>Co-Chairperson</h2>
+                                    <img src="image/team/student/2021/16M658.jpg" class="img-circle img-responsive">
+                                    <h3>Mr. Vijai Ram A G (16M658)</h3>
+                                    <h4>5th Year BE (SW) Mech</h4>
+                                </center>
+                            </div>
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <center>
+                                    <h2>Secretary(Men)</h2>
+                                    <img src="image/team/student/2021/18C114.jpg" class="img-circle img-responsive">
+                                    <h3>Mr. Karthik B (18C114)</h3>
+                                    <h4>3rd Year BE Civil</h4>
+                                </center>
+                            </div>
+							
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <center>
+                                    <h2>Secretary(Woman)</h2>
+                                    <img src="image/team/student/2021/18D208.jpg" class="img-circle img-responsive">
+                                    <h3>Ms. Ashika S (18D208)</h3>
+                                    <h4>3rd Year BE Biomedical</h4>
+                                </center>
+                            </div>
+
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <center>
+                                    <h2>Secretary(Science)</h2>
+                                    <img src="image/team/student/2021/18PF15.jpg" class="img-circle img-responsive">
+                                    <h3>Ms. Kanagadurga D (18PF15)</h3>
+                                    <h4>3rd Year MSc FDM </h4>
+                                </center>
+                             </div>
+                    </div> 
+                    
+					
+					<div id="menu15" class="tab-pane fade in">
+					
+						<div class="col-sm-2 col-md-2 col-lg-2"></div>
+						
+						<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <center>
+                                    <h2>Chairperson</h2>
+                                    <img src="image/team/student/1920/Adarsh.jpg"class="img-circle img-responsive">
+                                    <h3>Mr . Adarsh V Srinivasan</h3>
+                                    <h4>Final BE ECE</h4>
+                                </center>
+                            </div>
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <center>
+                                    <h2>Co-Chairperson</h2>
+                                    <img src="image/team/student/1920/Neeveen.jpg" class="img-circle img-responsive">
+                                    <h3>Mr . B. Naveen </h3>
+                                    <h4>Final BE Mech( SW )</h4>
+                                </center>
+                            </div>
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <center>
+                                    <h2>Secretary(Men)</h2>
+                                    <img src="image/team/student/1920/Rithik.jpg" class="img-circle img-responsive">
+                                    <h3>Mr . Rithik R Jain</h3>
+                                    <h4>Pre-final B.Tech IT</h4>
+                                </center>
+                            </div>
+							
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <center>
+                                    <h2>Secretary(Women)</h2>
+                                    <img src="image/team/student/1920/PRAveena S.jpg" " class="img-circle img-responsive">
+                                    <h3>Ms . S . Praveena </h3>
+                                    <h4>Pre-final BTech Textile</h4>
+                                </center>
+                            </div>
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <center>
+                                    <h2>Secretary(Science)</h2>
+                                    <img src="image/team/student/1920/NIRUPA.jpg" class="img-circle img-responsive">
+                                    <h3>Ms . M. Nirupasree </h3>
+                                    <h4>III M.Sc FDM</h4>
+                                </center>
+                            
+                            </div>
+                        </div>        
+					   
+					   <div id="menu142" class="tab-pane fade in">
+							<div class="col-sm-2 col-md-2 col-lg-2"></div>
+							
+							<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <center>
+                                    <h2>Chairperson</h2>
+                                    <img src="image/team/student/1819/jawahar.jpg" class="img-circle img-responsive">
+                                    <h3>Mr. R. Jawahar</h3>
+                                    <h4>Final BE EEE</h4>
+                                </center>
+                            </div>
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <center>
+                                    <h2>Co-Chairperson</h2>
+                                    <img src="image/team/student/1819/prem.jpg" class="img-circle img-responsive">
+                                    <h3>Mr. K. Premnandhakumar</h3>
+                                    <h4>Final BE Mech( SW )</h4>
+                                </center>
+                            </div>
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <center>
+                                    <h2>Secretary(Men)</h2>
+                                    <img src="image/team/student/1819/santhosh.jpg" class="img-circle img-responsive">
+                                    <h3>Mr. M. Santhosh Kumar</h3>
+                                    <h4>Pre-final BE ECE</h4>
+                                </center>
+                            </div>
+							
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <center>
+                                    <h2>Secretary(Women)</h2>
+                                    <img src="image/team/student/1819/aishwarya.jpg" class="img-circle img-responsive">
+                                    <h3>Ms. K. Aishwarya</h3>
+                                    <h4>Pre-final BTech IT</h4>
+                                </center>
+                            </div>
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <center>
+                                    <h2>Secretary(Science)</h2>
+                                    <img src="image/team/student/1819/priyanka.jpg" class="img-circle img-responsive">
+                                    <h3>Ms. V. Priyanka</h3>
+                                    <h4>Final B.Sc Applied Science</h4>
+                                </center>
+                            </div>
+                        </div>
+                        
+						
+						<div id="menu11" class="tab-pane fade in">
+                            <div class="col-sm-2 col-md-2 col-lg-2"></div>
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <center>
+                                    <h2>Chairperson</h2>
+                                    <img src="image/team/student/1718/shakthinarayanan.jpg" class="img-circle img-responsive">
+                                    <h3>Mr. R. Shakthi Naarayanan</h3>
+                                    <h4>Final BE ECE</h4>
+                                </center>
+                            </div>
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <center>
+                                    <h2>Co-Chairperson</h2>
+                                    <img src="image/team/student/1718/shruthi.jpg" class="img-circle img-responsive">
+                                    <h3>Ms. R. Sruthi</h3>
+                                    <h4>Final BE Mech(SW)</h4>
+                                </center>
+                            </div>
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <center>
+                                    <h2>Secretary(Men)</h2>
+                                    <img src="image/team/student/1718/ajith.jpg" class="img-circle img-responsive">
+                                    <h3>Mr. M. Ajith Kumar</h3>
+                                    <h4>Pre-final BE Prod</h4>
+                                </center>
+                            </div>
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <center>
+                                    <h2>Secretary(Women)</h2>
+                                    <img src="image/team/student/1718/kavya.jpg" class="img-circle img-responsive">
+                                    <h3>Ms. M. Kavyalakshmi</h3>
+                                    <h4>Pre-final BE I&CE</h4>
+                                </center>
+                            </div>
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <center>
+                                    <h2>Secretary(Science)</h2>
+                                    <img src="image/team/student/1718/kaviarchana.jpg" class="img-circle img-responsive">
+                                    <h3>Ms. C. Kavi Archanaa</h3>
+                                    <h4>Final BSc App Sci</h4>
+                                </center>
+                            </div>
+                        </div>
+						
+						
+						
+                        <div id="menu13" class="tab-pane fade in">
+                            <div class="row">
+                                <div class="col-lg-2 col-sm-2 col-md-2"></div>
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                    <center>
+                                        <h2>Chairperson</h2>
+                                        <img src="image/team/student/1516/arun.jpg" class="img-circle img-responsive">
+                                        <h3>Mr. K. Arun</h3>
+                                        <h4>Final BE Auto</h4>
+                                    </center>
+                                </div>
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                    <center>
+                                        <h2>Co-Chairperson</h2>
+                                        <img src="image/team/student/1516/asha.jpg" class="img-circle img-responsive">
+                                        <h3>Ms. R. Asha Priyanga</h3>
+                                        <h4>Final BE Prod(SW)</h4>
+                                    </center>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-sm-2 col-lg-2"></div>
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                    <center>
+                                        <h2>Secretary(Men)</h2>
+                                        <img src="image/team/student/1516/arunnishanthan.jpg" class="img-circle img-responsive">
+                                        <h3>Mr. A. Arun Nishanthan</h3>
+                                        <h4>Pre-final BE Metly</h4>
+                                    </center>
+                                </div>
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                    <center>
+                                        <h2>Secretary(Women)</h2>
+                                        <img src="image/team/student/1516/bhavadharini.jpg" class="img-circle img-responsive">
+                                        <h3>Ms. R. Bhavadharini</h3>
+                                        <h4>Pre-final BE I&CE</h4>
+                                    </center>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div id="menu12" class="tab-pane fade in">
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <center>
+                                    <h2>Chairperson</h2>
+                                    <img src="image/team/student/1617/nandhagopal.jpg" class="img-circle img-responsive">
+                                    <h3>Mr. M. Nandhagopal</h3>
+                                    <h4>Final BE Civil</h4>
+                                </center>
+                            </div>
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <center>
+                                    <h2>Co-Chairperson</h2>
+                                    <img src="image/team/student/1617/pravin.jpg" class="img-circle img-responsive">
+                                    <h3>Mr. A. Pravin</h3>
+                                    <h4>Final BE Mech(SW)</h4>
+                                </center>
+                            </div>
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <center>
+                                    <h2>Associate Chairperson</h2>
+                                    <img src="image/team/student/1617/swarna.jpg" class="img-circle img-responsive">
+                                    <h3>Ms. L. swarna Lakshmi</h3>
+                                    <h4>Final BE EEE(SW)</h4>
+                                </center>
+                            </div>
+                            <div class="col-sm-2 col-md-2 col-lg-2"></div>
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <center>
+                                    <h2>Secretary(Men)</h2>
+                                    <img src="image/team/student/1617/sachin.jpg" class="img-circle img-responsive">
+                                    <h3>Mr. U. Sachin Ganesh</h3>
+                                    <h4>Pre-final BE Mech</h4>
+                                </center>
+                            </div>
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <center>
+                                    <h2>Secretary(women)</h2>
+                                    <img src="image/team/student/1617/pavithra.jpg" class="img-circle img-responsive">
+                                    <h3>Ms. K. Pavithra</h3>
+                                    <h4>Pre-final BE ECE</h4>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+                
+            </div>
+            <div class="row" id="contact">
+                <div class="col-xs-12">
+                    <center>
+                        <h1 class="containerTitle" leftLine>Contact Us</h1>
+                    </center>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-lg-4 col-md-4">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.1857162154975!2d76.99993861416318!3d11.024688692153381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8582f1435fa59%3A0x137d95bfd8909293!2sPSG+College+Of+Technology!5e0!3m2!1sen!2sin!4v1545481997242" width="80%" height="350" frameborder="0" style="border:0;margin-left:10%" allowfullscreen></iframe>
+                </div>
+                
+				
+				
+				<div class="col-xs-12 col-sm-5 col-lg-5 col-md-5">
+                    
+                    <h3 white class="mail"><span class="glyphicon glyphicon-envelope"></span>&nbsp&nbspchairman.su@psgtech.ac.in</h3>
+               
+                </div>
+				
+				
+				
+				<!--<div class="col-xs-12 col-sm-5 col-lg-5 col-md-5">
+                    <h2 white>Jawahar R</h2>
+                    <h3 white class="mail"><span class="glyphicon glyphicon-envelope"></span>&nbsp&nbspchairman.su@psgtech.ac.in</h3>
+                    <h3 white><span class="glyphicon glyphicon-earphone"></span>&nbsp&nbsp+91 9524833221</h3>
+                    <h2 white style="margin-top:50px;">Premnandhakumar K</h2>
+                    <h3 white class="mail"><span class="glyphicon glyphicon-envelope"></span>&nbsp&nbsppremnandhakumar.k@gmail.com</h3>
+                    <h3 white><span class="glyphicon glyphicon-earphone"></span>&nbsp&nbsp+91 8675040156</h3>
+                </div>-->
+				
+				
+                <div class="col-xs-12 col-sm-3 col-lg-3 col-md-3" id="socialMedia">
+                <center>
+                    <a href="https://www.facebook.com/su.psg.tech/">
+                        <img src="image/icon/fb2.png" class="icon img-responsive">
+                        <h4 white>Students Union - PSG Tech</h4>
+                    </a>
+                </center>
+                <center>
+                    <a href="https://www.instagram.com/students_union_psgtech/">
+                        <img src="image/icon/instagram.png" class="icon img-responsive">
+                        <h4 white>students_union_psgtech</h4>
+                    </a>
+                </center>
+                <center>
+                    <a href="https://www.youtube.com/channel/UC3p_a8g876d50MxI7Kg5cMw">
+                        <img src="image/icon/youtube.png" class="icon img-responsive">
+                        <h4 white>Students Union PSG Tech</h4>
+                    </a>
+                </center>
+                </div>
+            </div>
+        </div>
+        <style>
+        .navbar-right>li:hover{
+            cursor:pointer;
+        }
+        .navbar-right>li{
+            transition:0.5s;
+        }
+        @media only screen and (max-width :767px)
+        {
+            .mail{
+                font-size:18px;
+            }
+        }
+        #socialMedia h4{
+            margin-bottom:30px;
+        }
+        .redir:hover{
+            cursor:pointer;
+        }
+            .icon{
+                height:50px;    
+            }
+            #contact{
+                color:white;
+                text-align:center;
+            }
+            #team img{
+                height:200px;
+            }
+            @media only screen and (max-width : 767px)
+            {
+                #team img{
+                    height:150px;
+                }   
+            }
+            #team{
+                color:white;
+            }
+            *[margin-bottom-20]
+            {
+                margin-bottom:20px;
+            }
+            table td {
+                color:white;
+                padding:5px;
+            }
+            table tr>td:nth-child(2)
+            {
+                text-align:center;
+            }
+            .footer{
+                color: white;
+                text-align: justify;
+                font-family: ralewayRegular;
+                position:relative;
+                top:0;
+                background:black;
+                z-index:1000;
+                bottom:0;
+                width:100%;
+            }
+        </style>
+        <div class="container-fluid footer">
+            <h5 style="text-align:center">Copyright &copy NMC 2019. All Rights Reserved</h5>  
+        </div>
+        <script>
+            $('.selectors').hover(function(){
+                $(this).css('cursor','pointer');
+            })
+            $('.selectors img').addClass("img-responsive");
+            $('.selectors img').css("height","75px");
+            $('.selectors').mouseenter(function(){
+                $(this).css('transition','0.5s');
+                $(this).css('background','black');
+            })
+            $('.selectors').mouseleave(function(){
+                $(this).css('transition','1.5s');
+                $(this).css('background','rgba(0, 0, 0, 0.151)');
+            })
+            $('.selectors').click(function(){
+                window.location.href = $(this).attr('redirect');
+            })
+            $('.redir').click(function(){
+                window.location.href = $(this).attr('redir')+"&#lg=1&slide=1";
+            })
+            $(".navbar-right>li>a").click(function() {
+                $('.navbar-right>li').each(function(){
+                    if($(this).hasClass("active"))
+                    {
+                        $(this).removeClass("active");
+                    }
+                });
+                $(this).parent().addClass("active");
+                $('html, body').animate({
+                    scrollTop: $($(this).attr("scrollDiv")).offset().top -50
+                }, 500);
+            });
+        </script>
+        
+        <script src="lightbox/js/lightgallery-all.min.js"></script>
+        <script>
+            $('.captions').lightGallery(); 
+        </script>
+    </body>
+</html>

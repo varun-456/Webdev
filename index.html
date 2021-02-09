@@ -1,0 +1,593 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.79.0">
+    <title>We are recruiting!</title>
+    <link rel = "icon" href ="http://localhost/The-Bridge-Logo.png" type = "image/x-icon" style="background-color:white" > 
+   <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="style.css">
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Bootstrap core CSS -->
+    <style>
+
+
+       body {
+         padding-top: 3rem;
+         padding-bottom: 3rem;
+         color: #5a5a5a !important;
+       }
+        ul.social-network {
+	     list-style: none;
+	     display: inline;
+	     margin-left:0 !important;
+	     padding: 0;
+}
+        ul.social-network li {
+	     display: inline;
+	     margin: 0 5px;
+}
+
+        .social-network a.icoRss:hover {     
+	     background-color: #F56505;
+}
+        .social-network a.icoFacebook:hover {
+	     background-color:#3B5998;
+}
+        .social-network a.icoTwitter:hover {
+	     background-color:#33ccff;
+}
+        .social-network a.icoGoogle:hover {
+	     background-color:#BD3518;
+}
+        .social-network a.icoVimeo:hover {
+	     background-color:#0590B8;
+}
+        .social-network a.icoLinkedin:hover {
+	     background-color:#007bb7;
+}
+        .social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+        .social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+	     color:#fff;
+}
+        a.socialIcon:hover, .socialHoverClass {
+	     color:#44BCDD;
+}
+
+        .social-circle li a {
+	      display:inline-block;
+	      position:relative;
+	      margin:0 auto 0 auto;
+	      -moz-border-radius:50%;
+	      -webkit-border-radius:50%;
+	      border-radius:50%;
+	      text-align:center;
+	      width: 50px;
+	      height: 50px;
+	      font-size:20px;
+	      background-color: #D3D3D3;
+}
+        @media(max-width: 400px){
+	      .social-circle li a{
+		               width: 35px;
+	}
+}
+        .social-circle li i {
+	      margin:0;
+	      line-height:50px;
+	      text-align: center;
+}
+
+        .social-circle li a:hover i, .triggeredHover {
+	      -moz-transform: rotate(360deg);
+	      -webkit-transform: rotate(360deg);
+	      -ms--transform: rotate(360deg);
+	      transform: rotate(360deg);
+	      -webkit-transition: all 0.2s;
+	      -moz-transition: all 0.2s;
+	      -o-transition: all 0.2s;
+	      -ms-transition: all 0.2s;
+	      transition: all 0.2s;
+}     
+        .social-circle i {
+	       color: #fff;
+	       -webkit-transition: all 0.8s;
+	       -moz-transition: all 0.8s;
+	       -o-transition: all 0.8s;
+	       -ms-transition: all 0.8s;
+	       transition: all 0.8s;
+}
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+     .example1 {
+          border: 1px solid;
+          border-radius: 25px;
+          background-color:#E6E6FA;
+          padding: 10px;
+          width: 30%;
+          box-shadow: 10px 10px 5px -2px rgba(0,0,0,0.75);
+          -webkit-box-shadow: 10px 10px 5px -2px rgba(0,0,0,0.75);
+          -moz-box-shadow: 10px 10px 5px -2px rgba(0,0,0,0.75);
+    }
+     @media (max-width: 400px){
+     	.example1{
+     	padding: 0px;
+     	width: 300px;
+     }
+   }
+    .ser{
+           max-width: 40rem;
+    }
+    .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+     }
+      @media (max-width: 400px){
+     	.row{
+     --bs-gutter-x: -5rem;
+     }
+ }
+    #example2{
+    	  border: 1px solid;
+    	  border-radius: 25px;
+    	  background-color:#E6E6FA;
+          padding: 10px;
+          width: 30%;
+          box-shadow: 10px 10px 5px -2px rgba(0,0,0,0.75);
+          -webkit-box-shadow: 10px 10px 5px -2px rgba(0,0,0,0.75);
+          -moz-box-shadow: 10px 10px 5px -2px rgba(0,0,0,0.75);
+      }
+       @media (max-width: 400px){
+     	#example2{
+     	padding: 0px;
+     	width: 300px;
+     }
+ }
+      .dark-mode {
+       background-color: black;
+       color: white;
+       }
+
+     #myBtn {
+          display: none;
+          position: fixed;
+          bottom: 20px;
+          right: 30px;
+          z-index: 99;
+          font-size: 18px;
+          border: none;
+          outline: none;
+          background-color: #0ACDFF;
+          color: white;
+          cursor: pointer;
+          padding: 15px;
+          border-radius: 4px;
+          }
+   @media (max-width: 400px){
+     	#myBtn{
+     	   right: 10px; 
+     	   bottom: 10px;
+     	   font-size: 15px;
+     }
+ }
+
+    #myBtn:hover {
+        background-color: #555;
+       }
+       .ex1 { 
+          padding-left: 80px;
+        }
+        @media (max-width: 400px){
+     	.ex1{
+     	  padding-left: 20px;
+        }
+      }
+        .ex2{
+        	padding-right:80px;
+        }
+        @media (max-width: 400px){
+     	.ex2{
+     	  padding-left: 20px;
+        }
+      }
+        .ex3{
+        	padding-left: 550px;
+        }
+         @media (max-width: 400px){
+     	.ex3{
+     	  padding-left: 50px;
+        }
+      }
+
+        .ex4{
+        	padding-left: 575px;
+        	text-align: center;
+        }
+        @media (max-width: 400px){
+     	.ex4{
+     	  padding-left: 30px;
+        }
+      }
+        .ex5{
+        	padding-left: 580px;
+        	text-align: center;
+        }
+        @media (max-width: 400px){
+     	.ex5{
+     	  padding-left: 15px;
+        }
+      }
+        .img {
+          border-radius: 50%;
+          }
+          .align-middle {
+             vertical-align: middle!important;
+        }
+  @media (max-width: 400px){
+     	.align-middle{
+     	  vertical-align: 0;
+        }
+    }
+     </style>
+ 
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    <a id="myBtn" onclick="topfunction()" href="#" title="Go To Top" class="btn btn-light btn-lg back-to-top" role="button">Top</a>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+      <img src="http://localhost/The-Bridge-Logo.png" alt="" width="70" height="24" style="background-color:white">
+    </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page" href="#">Everything PSG</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page" href="#">Careers</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page" href="#">Interviews</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page" href="#">Series</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page" href="#">Entrepreneurship</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page" href="#">Sci Tech</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page" href="#">Recuritment</a>
+          </li>
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            More
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Sports</a></li>
+            <li><a class="dropdown-item" href="#">Coimbatore Times</a></li>
+            <li><a class="dropdown-item" href="#">Musings</a></li>
+             <li><a class="dropdown-item" href="#">Poetry</a></li>
+            <li><a class="dropdown-item" href="#">Recommendations</a></li>
+            <li><a class="dropdown-item" href="#">Miscellaneous</a></li> 
+            <li><a class="dropdown-item" href="#">Reader's Space</a></li>
+            <li><a class="dropdown-item" href="#">Sudoku</a></li>
+            <li><a class="dropdown-item" href="#">About Us</a></li>
+             <li><a class="dropdown-item" href="#">Our Team</a></li>
+          </ul>
+        </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="http://localhost/The-Bridge-Logo.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="http://localhost/bridge.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="http://localhost/bridge2.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <image class="bd-placeholder-img rounded-circle" width="140" height="140" src="http://localhost/bill-gates-2.jpg"  role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%"><text x="50%" y="50%" dy=".3em"></text></image>
+
+        <h2>BILL GATES</h2>
+        <p>“I will always choose a lazy person to do a difficult job because a lazy person will find an easy way to do it.”</p>
+        <p>"Don’t compare yourself with anyone in this world…if you do so, you are insulting yourself."</p>
+        <p><a class="btn btn-secondary" href="https://en.wikipedia.org/wiki/Bill_Gates" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <image class="bd-placeholder-img rounded-circle" width="140" height="140" src="http://localhost/mark.jpg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></image>
+
+        <h2>MARK ZUCKERBERG</h2>
+        <p>“People don’t care about what you say, they care about what you build.”</p>
+        <p>“Move fast and break things. Unless you are breaking stuff, you are not moving fast enough.”</p>
+        <p><a class="btn btn-secondary" href="https://en.wikipedia.org/wiki/Mark_Zuckerberg" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <image class="bd-placeholder-img rounded-circle" width="140" height="140" src="http://localhost/RATAN2.webp" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></image>
+
+        <h2>RATAN TATA</h2>
+        <p>"I don't believe in taking right decisions. I take decisions and then make them right."</p>
+        <p>“None can destroy iron, but its own rust can! Likewise none can destroy a person, but its own mindset can!”</p>
+        <p><a class="btn btn-secondary" href="https://en.wikipedia.org/wiki/Ratan_Tata" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+        <h2 class="d-flex justify-content-center">We are recruiting!</h2>
+      <div class="text-warning">
+        <h6 class="d-flex justify-content-center">The Editoral Team</h6>
+        <br>
+        <br>
+        <br>
+        <p class="d-flex justify-content-center">Feb 02,2021</p>
+           </div>
+        <h2 class="d-flex justify-content-center"><strong>THE BRIDGE</strong></h2>
+        <p class="d-flex justify-content-center"><strong>PSG COLLEGE OF TECHNOLOGY</strong></p>
+        <h1 class="d-flex justify-content-center"><strong>WE'RE NOW RECUITING</strong></h1>
+      <div class="d-flex justify-content-center">
+        <p><a class="btn btn-lg btn-outline-warning btn-sm" role="button">Mail us your submission @ thebridgepsg@psgtech.ac.in</a></p>
+    </div>
+
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+      	<div class="text-info">
+        <h2 class="featurette-heading">Correspondents <span class="text-muted">It’ll blow your mind.</span></h2>
+    </div>
+        <p class="lead">"If you can't explain it simply, you don't understand it well enough"</p>
+      </div>
+          <div class ="example1">
+  <div class="ser">
+    <div class="text-primary">
+      <div class="card-header">CORRESPONDENTS</div>
+  </div>
+      <div class="card-body text-center">
+      	<div>
+        <p class="card-text">WRITE A POEM OR COMIC PIECE.</p>
+        <p class="card-text"><strong>or</strong></p>
+        <p class="card-text">WRITE AN ARTICLE ON A TOPIC OF YOUR CHOICE!</p>
+        <p class="card-text"><strong>or</strong></p>
+        <p class="card-text">SUMMARIZE AN EXISTING ARTICLE (FROM BELOW)</p>
+        <p class="card-text">SIX STARS,SIX ECLIPSE</p>
+        <p class="card-text">SPACE FOOD	</p>
+    </div>
+      </div>
+    </div>
+    </div>     
+</div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-3">
+      	   	<div class="ex1">
+        <h2 class="featurette-heading">  Oh yeah, it’s that good. <span class="text-muted">See for<div class="text-info"> developer.</div></span></h2>
+        <p class="lead">“Your website is the center of your digital eco-system, like a brick and mortar location, the experience matters once a customer enters, just as much as the perception they have of you before they walk through the door.”</p>
+    </div>
+      </div>
+      <div class="example1">
+      <div  style="max-width: 30rem;">
+      	<div class="text-primary">
+       <div class="card-header">WEB DEVELOPER</div>
+   </div>
+       <div class="card-body text-center">
+         <p class="card-text">SHARE YOUR PORTFOLIO (GITHUB/GITLAB/LINKEDIN)</p>
+          <p class="card-text"><strong>and</strong></p>
+            <p class="card-text">REDESIGN THIS RECRUITMENT PAGE, WITH YOUR</p>
+            <p class="card-text">CHOICE OF TOOLS. SHARE A COMPLETE </p>
+          <p class="card-text">PRODUCTION URL & ITS SOURCE CODE. ADDITIONAL</p> 
+         <p class="card-text">FUNCTIONALITY WILL BE CONSIDERED. ENJOY</p>
+          <p class="card-text">YOURSELF AND MAKE IT SIMPLE! :)</p>
+      </div>
+       </div>
+     </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+      	<div class="align-middle" !important>
+      			<div class="ex2">
+        <h2 class="featurette-heading">And lastly, this one. <span class="text-info">Designer</span></h2>
+        <p class="lead">“The public is more familiar with bad design than good design. It is, in effect, conditioned to prefer bad design, because that is what it lives with. The new becomes threatening, the old reassuring.”</p>
+    </div>
+    </div>
+      </div>
+      <div id="example2">
+     <div  style="max-width: 30rem;">
+     	<div class="text-primary">
+  <div class="card-header">DESIGNER</div>
+</div>
+  <div class="card-body text-center">
+    <p class="card-text">SHARE YOUR PORTFOLIO (WEBSITE/CREATIONS)</p>
+     <p class="card-text"><strong>and</strong></p>
+     <p class="card-text">DESIGN A POSTER FOR AN EXISTING BRIDGE</p>
+     <p class="card-text">ARTICLE.</p>
+ </div>
+  </div>
+</div>
+    </div>
+    <hr class="featurette-divider">
+    <div class="row featurette">
+      <div class="col-md-7 order-md-3 img">
+      	   	<div class="ex3">
+      	   		<br>
+      	   		<br>
+      	   		<br>
+       <img src="http://localhost/bridge.jpg" alt="Bridge" style="width: 200px">
+       <br>
+       <br>
+    </div>
+    <div class="ex5">
+    	 <a href="https://thebridge.psgtech.ac.in/author/the-editorial-team/" target="_blank" style="color:green;">The Editorial Team</a> 
+    </div>
+    <div class="ex4">
+    <p>We are the puppeteers behind the curtain</p>
+</div>
+      </div>
+    <div class="example1">
+    <div class="card text-center">
+  <h5 class="card-header">Subscribe to our newsletter</h5>
+  <div class="card-body">
+    <p class="card-text">Get the latest posts delivered right to your inbox.</p>
+    <p class="card-text">For comments/feedback/suggestions, please write to</p>
+    <p class="card-text"><strong>thebridgepsg@gmail.com</strong></p>
+    <a href="#" class="btn btn-outline-warning btn-lg ">Subscribe</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+	
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+<script>
+ScrollReveal().reveal('.example1',{ delay: 500});
+ScrollReveal().reveal('.ex1', { delay: 500 });
+ScrollReveal().reveal('.ex2', { delay: 500 });
+ScrollReveal().reveal('.container', { delay: 500 });
+ScrollReveal().reveal('.ex3', { delay: 500 });
+ScrollReveal().reveal('.ex4', { delay: 500 });
+ScrollReveal().reveal('.ex5', { delay: 500 });
+
+
+</script>
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  <!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p>The Bridge &copy; 2021 &middot; PSG College of Technology &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    	<div class="container">
+    <div class="row">
+      <div>
+        <ul class="social-network social-circle">
+          <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+          <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+          <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <button class="btn btn-secondary" onclick="myFunction()" >Toggle dark mode</button>
+</footer>
+</body>
+</main>
+
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
