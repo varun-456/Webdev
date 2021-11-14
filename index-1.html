@@ -1,26 +1,70 @@
-<div class="dashboard">
-    <div class="dashboard-1">
-       <hr class="new4">
-       <p class="dashboard-text"><i class="fas fa-tasks dashboard-image"></i>dashboard</p>
-       <hr class="new4">
-       <p class="dashboard-text"><i class="fas fa-tasks dashboard-image"></i>Head</p>
-       <hr class="new4">
-       <p class="dashboard-text"><i class="fas fa-tasks dashboard-image"></i>Allocated Tasks</p>
-       <hr class="new4">
-       <p class="dashboard-text"><i class="fas fa-tasks dashboard-image"></i>Progress Update</p>
-       <hr class="new4">
-       <p class="dashboard-text"><i class="fas fa-tasks dashboard-image"></i>Favorites</p>
-       <hr class="new4">
-       <p class="dashboard-text"><i class="fas fa-tasks dashboard-image"></i>Reward Points</p>
-       <hr class="new4">
-     </div>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/855ffe48e3.js" crossorigin="anonymous"></script>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a  {
+ float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  bottom: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+.topnav i{
+  padding-right: 10px;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="topnav">
+   <div class="topnav-right">
+    <a href="#about" class="navitems"><i class="fas fa-sign-out-alt "></i>Logout</a>
    </div>
-   <div class="navbar">
-           <div class="topnav-right">
-             <a href="#search">Search</a>
-             <a href="#about">About</a>
-             <a href="#news">News</a>
-            <a href="#contact">Contact</a>
-           </div>
-         </div>
-   </div>
+   <div class="topnav-right">
+    <a href="#search" class="navitems"><i class="fas fa-bell"></i>Request</a>
+    </div>
+    <div class="topnav-right" >
+      <a href="#contact" class="navitems"><i class="far fa-user-circle"></i>Profile</a>
+    </div>
+    <div class="topnav-right">
+      <a href="#news" class="navitems"><i class="fas fa-home "></i>Home</a>
+    </div>
+</div>
+
+<div style="padding-left:16px">
+  <h2>Top Navigation with Right Aligned Links</h2>
+  <p>Some content..</p>
+</div>
+
+</body>
+</html>
